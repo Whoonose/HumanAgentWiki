@@ -2,12 +2,12 @@
 #
 # HumanAgentWiki installer.
 #
-#   curl -fsSL https://raw.githubusercontent.com/petrludwig-collab/HumanAgentWiki/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/Whoonose/HumanAgentWiki/main/install.sh | bash
 #
 # Overridable via env: HAW_DIR (install path), HAW_REPO (git url), HAW_DB (db name).
 set -euo pipefail
 
-REPO="${HAW_REPO:-https://github.com/petrludwig-collab/HumanAgentWiki.git}"
+REPO="${HAW_REPO:-https://github.com/Whoonose/HumanAgentWiki.git}"
 DIR="${HAW_DIR:-$HOME/humanagentwiki}"
 DB="${HAW_DB:-humanagentwiki}"
 
